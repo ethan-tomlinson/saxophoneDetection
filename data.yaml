@@ -1,0 +1,13 @@
+train: ../datasets/train/images
+val: ../datasets/valid/images
+test: ../datasets/test/images
+
+nc: 1
+names: ['Saxophone']
+
+roboflow:
+  workspace: image-detection-training
+  project: saxophone-object-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/image-detection-training/saxophone-object-detection/dataset/1
